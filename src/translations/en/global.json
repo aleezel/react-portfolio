@@ -1,9 +1,9 @@
 {
     "navbar":{
-        "Home": "Home",
-        "Work": "My work",
-        "About": "About me",
-        "Contact": "Let's connect!"
+        "home": "Home",
+        "work": "My work",
+        "about": "About me",
+        "contact": "Let's connect!"
     },
 
     "home":{
@@ -11,6 +11,6 @@
         "TitleName": "Alejandra Piedra",
         "Text1": "A dynamic crafter that will help you land your ideas and make them distinguished. Every project needs its own voice.",
         "Text2": "I’m a passionate developer, Interactive Graphic designer with expertise in UX/UI, and Concept artist.",
-        "Link": "Have a look at my works"
+        "Link": "Take a look at my works"
     }
 }
