@@ -1,5 +1,6 @@
 import styles from './style';
-import Navbar from './components/navbar'
+
+import { Navbar, Home, Works, Aboutme, Footer, Button } from './components'
 
 export const App = () =>(
   
@@ -11,9 +12,13 @@ export const App = () =>(
         
       </div>
 
-      <div className={` bg-primary ${styles.flexStart}`}>
+      <div className={` bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <h1>Main section</h1>
+          <Home />
+          <Works />
+          <Aboutme />
+          <Button />
+          <Footer />
         </div>
       </div>
     </div>
