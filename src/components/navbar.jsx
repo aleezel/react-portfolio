@@ -8,23 +8,23 @@ const Navbar = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <nav className='fixed w-full flex py-6 navbar justify-end'>
+    <nav className='fixed w-full flex py-10 navbar justify-end'>
 
 
-        <ul className='list-none sm:flex flex-col hidden justify-end flex-1 space-y-2'>
-          <li className='navlink'>
-            <a href='#home'> {t("navbar.home")} </a>
+        <ul className='list-none sm:flex flex-col hidden justify-end flex-1 space-y-4'>
+          <li>
+            <a className='navlink' href='#home'> {t("navbar.home")} </a>
           </li>
-          <li className='navlink'>
-            <a href='#work'> {t("navbar.work")} </a>
+          <li>
+            <a className='navlink' href='#work'> {t("navbar.work")} </a>
           </li>
-          <li className='navlink'>
-            <a href='#about'> {t("navbar.about")} </a>
+          <li>
+            <a className='navlink' href='#about'> {t("navbar.about")} </a>
           </li>
-          <li className='navlink'>
-            <a href='#contact'> {t("navbar.contact")} </a>
+          <li >
+            <a className='navlink' href='#contact'> {t("navbar.contact")} </a>
           </li>
-          <div className='space-x-5 !mt-4'>
+          <div className='space-x-5 !mt-6'>
               <a className='cursor-pointer navlink' onClick={() => i18n.changeLanguage("en")}>EN</a>
               <a className='cursor-pointer navlink' onClick={() => i18n.changeLanguage("es")}>ES</a>
           </div>

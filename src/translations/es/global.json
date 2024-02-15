@@ -9,8 +9,9 @@
     "home":{
         "Subtitle": "¡Hola! Soy",
         "TitleName": "Alejandra Piedra",
-        "Text1": "Una desarrolladora dinámica que te ayudará a aterrizar tus ideas y a distinguirlas. Cada proyecto necesita su propia voz.",
-        "Text2": "Soy un desarrolladora web apasionada, diseñadora interactiva y gráfica con experiencia en UI UX y artista conceptual.",
+        "Text1": "Soy una apasionada desarrolladora web, diseñadora interactiva con experiencia en UI UX y artista conceptual.",
+        "Highlight1": "",
+        "Text2": "Me gusta crear productos llenos de personalidad e interactividad, con una experiencia de usuario única siempre por delante.",
         "Link": "Echa un vistazo a mis trabajos"
     }
 }

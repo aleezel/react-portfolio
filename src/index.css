@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Roboto Flex';
   src: url('../fonts/RobotoFlex.woff2');
+  font-display: swap;
 }
 
 @font-face {
@@ -19,7 +20,7 @@
 
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Switzer, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -34,12 +35,40 @@
 }
 
 h1 {
-  font-family: 'Roboto Flex';
+  font-family: Roboto Flex, Arial, Helvetica, sans-serif;
   font-size: 5em;
   line-height: 1.1;
   color: #323070;
-    font-variation-settings: "wght" 650, "wdth" 140, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 120, "YTLC" 514, "YTUC" 680, "YTAS" 713, "YTDE" -203, "YTFI" 738;
+  font-variation-settings: "wght" 650, "wdth" 140, "opsz" 36, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 110, "YTLC" 514, "YTUC" 680, "YTAS" 713, "YTDE" -203, "YTFI" 738;  
+  animation: animatedtitle 2.5s cubic-bezier(0.90, 0.135, 0.15, 0.86);
+  animation-delay: -1s;
+}
 
+@keyframes animatedtitle{
+  0% {
+    
+    font-variation-settings: "wght" 400, "wdth" 100, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 110, "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+  }
+
+  25% {
+    
+    font-variation-settings: "wght" 400, "wdth" 100, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 110, "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+  }
+
+  50% {
+    
+    font-variation-settings: "wght" 400, "wdth" 100, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 110, "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+  }
+
+  75% {
+    
+    font-variation-settings: "wght" 400, "wdth" 100, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 110, "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+  }
+
+  100% {
+    
+    font-variation-settings: "wght" 650, "wdth" 140, "opsz" 36, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 110, "YTLC" 514, "YTUC" 680, "YTAS" 713, "YTDE" -203, "YTFI" 738;
+  }
 }
 
 h2 {
@@ -48,17 +77,30 @@ h2 {
   line-height: 1.1;
 
   font-weight: 500;
-    font-variation-settings: "wght" 400, "wdth" 100, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 109.33, "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+    font-variation-settings: "wght" 400, "wdth" 100, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 110, "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
 
+}
+
+.roboto3{
+  font-family: 'Roboto Flex';
+  line-height: 1.1;
+  font-weight: 500;
+    font-variation-settings: "wdth" 124, "opsz" 36, "GRAD" 0, "slnt" 0, "XTRA" 490, "XOPQ" 96, "YOPQ" 110, "YTLC" 514, "YTUC" 680, "YTAS" 713, "YTDE" -203, "YTFI" 738;
 }
 
 .navlink{
   font-family: 'Roboto Flex';
-  font-size: 1.25em;
+  font-size: 1.25rem;
   line-height: 1.1;
   color: #8578D6;
-  font-weight: 500;
-    font-variation-settings: "wght" 400, "wdth" 113, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 468, "XOPQ" 96, "YOPQ" 97, "YTLC" 514, "YTUC" 680, "YTAS" 713, "YTDE" -203, "YTFI" 738;
+  font-variation-settings: "wght" 400, "wdth" 113, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 468, "XOPQ" 96, "YOPQ" 97, "YTLC" 514, "YTUC" 680, "YTAS" 713, "YTDE" -203, "YTFI" 738;
+  cursor: pointer;
+  transition: 150ms cubic-bezier(0.90, 0.135, 0.15, 0.86);
+}
+
+.navlink:hover{
+  color: #646cff;
+  font-variation-settings: "wght" 550, "wdth" 113, "opsz" 14, "GRAD" 0, "slnt" 0, "XTRA" 468, "XOPQ" 96, "YOPQ" 120, "YTLC" 514, "YTUC" 680, "YTAS" 713, "YTDE" -203, "YTFI" 738;
   cursor: pointer;
 }
 
@@ -203,7 +245,7 @@ button:focus-visible {
   filter: blur(900px);
 }
 
-.white__gradient {
-  background: rgba(255, 255, 255, 0.6);
+.yellow__gradient {
+  background: #FFFFE0;
   filter: blur(750px);
 }

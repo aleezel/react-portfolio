@@ -9,8 +9,9 @@
     "home":{
         "Subtitle": "Hi! I’m",
         "TitleName": "Alejandra Piedra",
-        "Text1": "A dynamic crafter that will help you land your ideas and make them distinguished. Every project needs its own voice.",
-        "Text2": "I’m a passionate developer, Interactive Graphic designer with expertise in UI UX, and Concept artist.",
+        "Text1": "I’m a passionate developer, Interactive designer with expertise in UI UX, and Concept artist.",
+        "Highlight1": "",
+        "Text2": "I love to create products full of personality and interactivity, with an unique user experience approach always upfront.",
         "Link": "Take a look at my works"
     }
 }
