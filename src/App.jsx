@@ -6,7 +6,7 @@ import { Navbar, Home, Works, Aboutme, Footer, Button } from './components'
 export const App = () =>(
   
   
-    <div className='bg-black w-full overflow-hidden'>
+    <div className='w-full overflow-hidden'>
       <div className={`${styles.paddingX} $styles.flexCenter`}>
 
         <Navbar />
@@ -19,6 +19,7 @@ export const App = () =>(
           
         </div>
       </div>
+      <Works />
     </div>
   );
 

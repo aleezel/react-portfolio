@@ -249,3 +249,19 @@ button:focus-visible {
   background: #FFFFE0;
   filter: blur(750px);
 }
+
+
+/* Preview images */
+#images-track > .proj-image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: center;
+}
+
+#images-track{
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+}
